@@ -42,7 +42,7 @@ A deep slice of customer behavior reveals that retail revenue is heavily top-hea
 ### B. The $321,000 Southern Revenue Paradox
 While the West ($710K) and East ($670K) regions combined represent 61.8% of historical organizational revenue, the South region heavily underperforms at a baseline of 17.2% ($389,151).
 
-![Regional Revenue and AOV Analysis](./images/regional_revenue.png)
+![Regional Revenue and AOV Analysis](./Images/regional_revenue.png)
 
 * **The Visual Insight:** Aggregating transactional fields revealed an incredible operational paradox. The **South region commands the highest Average Order Value (AOV) across the entire company at $243.52** (compared to the West's baseline of $226.18). However, it suffers from severe transaction scarcity, generating **only 1,598 total orders** over 4 years.
 * **Strategic BA Recommendation:** The South does not suffer from a consumer purchasing power issue; it suffers from an acquisition and order frequency issue. By deploying targeted promotional mechanics to increase regional order counts to baseline peer levels, Superstore can unlock a hidden **$321,000 revenue gap**.
@@ -50,7 +50,7 @@ While the West ($710K) and East ($670K) regions combined represent 61.8% of hist
 ### C. Macro Sales Timelines & Accelerating Growth
 Evaluating chronological transaction trends allows fulfillment teams to anticipate macro volume shifts.
 
-![Four-Year Monthly Sales Trend](./images/sales_trend.png)
+![Four-Year Monthly Sales Trend](./Images/sales_trend.png)
 
 * **The Visual Insight:** The historical timeline highlights massive, non-stationary Q4 holiday seasonality every single year. Following a temporary market dip in 2016, performance experienced an explosive **30.6% growth surge in 2017 ($600.2K)** and maintained rapid momentum to finish **2018 up 20.3% YoY at $722.1K**.
 * **Strategic BA Recommendation:** Growth is accelerating aggressively heading into the next fiscal year. Supply chain teams must advance procurement schedules by 6–8 weeks, targeting August/September to build inventory buffers for high-value items (Phones/Chairs) before the annual Q4 holiday squeeze.
@@ -72,7 +72,7 @@ To insulate operations from stockouts during the transition to a new fiscal year
 3. **Algorithmic Fit:** Deployed a 30-day rolling mean baseline overlaid with a linear trend model trained on a held-out historical window.
 4. **Evaluation:** Validated prediction errors against a 30-day test matrix utilizing MAE and RMSE validation markers.
 
-![Daily Sales 7-Day Forecast Window](./images/7_day_forecast.png)
+![Daily Sales 7-Day Forecast Window](./Images/7_day_forecast.png)
 
 * **The Predictive Insight:** The model successfully anticipated a dramatic, immediate post-holiday demand drop-off following December's volatile peak days (which frequently hit $8,000–$9,000 in daily transactions). The forecast horizon stabilizes into a tight, consistent window between **$2,498 and $2,851 per day**, establishing a total weekly forecast of **$19,091**.
 * **Strategic BA Recommendation:** This low-velocity, highly predictable weekly average of **~$2,727/day** provides an optimal operational window for warehousing teams to execute product clearance campaigns, rebalance inventory returns, and transition shelf allocations for incoming Q1 restocks.
